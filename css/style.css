@@ -18,18 +18,19 @@
   width: 300px;
   cursor: pointer;
   position: relative;
-  z-index: 1;
 }
+
 .select {
   background-color: var(--primary);
   padding: 20px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .options-list {
   position: absolute;
   width: 100%;
@@ -40,8 +41,9 @@
   max-height: 180px;
   overflow-y: auto;
   transition: 0.4s linear 0.2s;
-  height: 0px;
+  height: 0;
 }
+
 .option {
   padding: 8px 0;
   font-weight: 500;
@@ -49,18 +51,20 @@
   transition: 0.3s ease-in-out;
 }
 
-.option:hover {
-  color: #2578a8;
+.option:hover,
+.option.selected {
+  color: #00a8ff;
 }
 
 .options-list::-webkit-scrollbar {
   width: 4px;
   background-color: #eee;
 }
+
 .options-list::-webkit-scrollbar-thumb {
-  width: 4px;
-  background-color: var(--primary);
+  background-color: #00a8ff;
 }
+
 .options-list.active {
   height: 180px;
 }
