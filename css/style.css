@@ -23,6 +23,7 @@
 .select {
   background-color: var(--primary);
   padding: 20px;
+  margin-right: 50px;
   color: #fff;
   font-weight: 500;
   border-radius: 6px;
@@ -33,7 +34,7 @@
 
 .options-list {
   position: absolute;
-  width: 100%;
+  width: 85%;
   background-color: #f9f9f9;
   border-radius: 6px;
   margin-top: 14px;
