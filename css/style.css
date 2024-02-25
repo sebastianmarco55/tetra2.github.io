@@ -209,6 +209,10 @@ h6,
 }
 
 @media (max-width: 576px) {
+  .buton-i {
+    opacity: 1;
+    margin-bottom: 30px;
+  }
   .carousel-caption h5 {
     font-size: 14px;
     font-weight: 500 !important;
