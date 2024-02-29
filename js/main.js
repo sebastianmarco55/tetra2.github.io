@@ -32,29 +32,6 @@
     $(window).resize(toggleNavbarMethod);
   });
 
-  const select = document.querySelector(".select");
-  const options_list = document.querySelector(".options-list");
-  const options = document.querySelectorAll(".option");
-
-  //show & hide options list
-  select.addEventListener("click", () => {
-    options_list.classList.toggle("active");
-    select.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
-  });
-
-  //select option
-  options.forEach((option) => {
-    option.addEventListener("click", () => {
-      options.forEach((option) => {
-        option.classList.remove("selected");
-      });
-      select.querySelector("span").innerHTML = option.innerHTML;
-      option.classList.add("selected");
-      options_list.classList.toggle("active");
-      select.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
-    });
-  });
-
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -92,3 +69,53 @@
     },
   });
 })(jQuery);
+const dropContainer = document.getElementById("dropcontainer");
+const fileInput = document.getElementById("images");
+
+dropContainer.addEventListener(
+  "dragover",
+  (e) => {
+    // prevent default to allow drop
+    e.preventDefault();
+  },
+  false
+);
+
+dropContainer.addEventListener("dragenter", () => {
+  dropContainer.classList.add("drag-active");
+});
+
+dropContainer.addEventListener("dragleave", () => {
+  dropContainer.classList.remove("drag-active");
+});
+
+dropContainer.addEventListener("drop", (e) => {
+  e.preventDefault();
+  dropContainer.classList.remove("drag-active");
+  fileInput.files = e.dataTransfer.files;
+});
+
+("use strict");
+
+const select = document.querySelector(".select");
+const options_list = document.querySelector(".options-list");
+const options = document.querySelectorAll(".option");
+
+//show & hide options list
+select.addEventListener("click", () => {
+  options_list.classList.toggle("active");
+  select.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
+});
+
+//select option
+options.forEach((option) => {
+  option.addEventListener("click", () => {
+    options.forEach((option) => {
+      option.classList.remove("selected");
+    });
+    select.querySelector("span").innerHTML = option.innerHTML;
+    option.classList.add("selected");
+    options_list.classList.toggle("active");
+    select.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
+  });
+});
