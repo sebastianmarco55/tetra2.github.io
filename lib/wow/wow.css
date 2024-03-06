@@ -648,7 +648,10 @@ button:focus {
 .gallery .image {
   cursor: pointer;
 }
-
+.image2 {
+  height: 50%;
+  overflow: hidden;
+}
 .job-list .block {
   padding: 50px 80px;
   background: #fff;
