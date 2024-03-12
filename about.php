@@ -149,10 +149,9 @@
     <section class="gallery">
       <h3 class="col-12 mb-2 text-center">Galerie</h3>
       <p class="container col-12 text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        provident, quidem exercitationem deserunt labore pariatur repellat
-        cumque velit, non dolorum eius doloremque laboriosam beatae saepe
-        accusantium totam dicta nesciunt quis!
+      Ne bucurăm să împărtășim momente speciale din viața noastră profesională și comunitară.
+       Galeria noastră foto este locul în care putem sărbători și să ne amintim evenimentele importante, 
+       creând legături puternice între colegi și clienți.
       </p>
       <div class="container-fluid p-0">
         <div class="row no-gutters">

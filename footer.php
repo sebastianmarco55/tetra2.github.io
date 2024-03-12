@@ -61,7 +61,7 @@
               >office@tetrasistemsguard.ro
             </p>
             <p class="mb-0">
-              <i class="bi bi-telephone text-primary me-2"></i>+40 731 200 520
+              <i class="bi bi-telephone text-primary me-2"></i>+40 731 200 520 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 021.9559 
             </p>
           </div>
           <div class="col-lg-3 col-md-6">

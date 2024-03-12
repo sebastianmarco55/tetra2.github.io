@@ -76,7 +76,12 @@
 =            Galerie            =
 ==============================-->
     <section class="gallery">
-      <h1 class="col-12 text-center">Galerie</h1>
+      <h2 class="col-12  text-center">Galerie</h2>
+      <p class="container mb-3 col-12 text-center ">
+      Ne bucurăm să împărtășim momente speciale din viața noastră profesională și comunitară.
+       Galeria noastră foto este locul în care putem sărbători și să ne amintim evenimentele importante, 
+       creând legături puternice între colegi și clienți.
+      </p>
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -134,8 +139,8 @@
               <i class="ti-money"></i>
               <h3>Salariu competitiv</h3>
               <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec rutrum congue leo eget malesuada.
+              Ne străduim să oferim un salariu competitiv pentru a 
+              recruta și menține cei mai buni profesioniști din industria securității.
               </p>
             </div>
           </div>
@@ -145,8 +150,9 @@
               <i class="ti-filter"></i>
               <h3>Tichete de masa</h3>
               <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec rutrum congue leo eget malesuada.
+              Prin oferirea de tichete de masă, 
+              ne asigurăm că echipa noastră beneficiază de un avantaj 
+              suplimentar în plus față de salariu.
               </p>
             </div>
           </div>
@@ -156,8 +162,9 @@
               <i class="ti-book"></i>
               <h3>Posibilitate de scolarizare </h3>
               <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec rutrum congue leo eget malesuada.
+              Prin oferirea posibilităților de școlarizare,
+               ne asigurăm că echipa noastră are acces la resursele necesare pentru
+              a-și îmbunătăți abilitățile și a avansa în carieră.
               </p>
             </div>
           </div>
@@ -167,8 +174,9 @@
               <i class="ti-hummer"></i>
               <h3>Concediu platit</h3>
               <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec rutrum congue leo eget malesuada.
+              Oferim concediu plătit generos,
+               pentru a le permite să se odihnească și să se refacă, 
+               fără a-și face griji financiare.
               </p>
             </div>
           </div>
