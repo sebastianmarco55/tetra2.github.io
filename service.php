@@ -1,11 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ro">
   <head>
     <meta charset="utf-8" />
     <title>Tetra | Servicii</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Șabloane HTML gratuite" name="keywords" />
-    <meta content="Șabloane HTML gratuite" name="description" />
 
     <!-- Favicon -->
     <link href="img/favicon.png" rel="icon" />
@@ -41,49 +39,7 @@
   </head>
 
   <body>
-    <!-- Bară de Navigare Început -->
-    <nav
-      class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0"
-    >
-      <a href="index.html" class="navbar-brand ms-lg-5">
-        <h1 class="display-5 m-0 text-primary2">
-          <img
-            src="img/favicon2.png"
-            alt=""
-            style="
-              width: 60%;
-              border-radius: 10px;
-              background-color: rgb(21, 59, 95);
-              padding-left: 10px;
-              padding-right: 10px;
-            "
-          />
-        </h1>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto py-0">
-          <a href="index.html" class="nav-item nav-link">Acasă</a>
-          <a href="about.html" class="nav-item nav-link">Despre noi</a>
-          <a href="service.html" class="nav-item nav-link active">Servicii</a>
-          <a href="career.html" class="nav-item nav-link">Cariera</a>
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
-          <a
-            href="tel:+123456789"
-            class="nav-item nav-link nav-contact bg-secondary text-white px-5 ms-lg-5"
-            ><i class="bi bi-telephone-outbound me-2"></i>+40 731 200 520</a
-          >
-        </div>
-      </div>
-    </nav>
-    <!-- Bară de Navigare Sfârșit -->
+  <?php require "header.php"; ?>
     <!-- Erou Început -->
     <div class="container-fluid bg-primary p-5 hero-header mb-5">
       <div class="row py-5">
@@ -124,7 +80,7 @@
                   Nu lăsaţi securitatea afacerii dumneavoastră la voia
                   întâmplării! Contactați-ne!
                 </p>
-                <a href="servicii/paza_si_protectie.html"
+                <a href="servicii/paza_si_protectie.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -149,7 +105,7 @@
                   Contactați-ne pentru a afla cum să vă protejați afacerea și
                   proprietatea în mod profesionist și eficient.
                 </p>
-                <a href="servicii/monitorizare_si_interventie.html"
+                <a href="servicii/monitorizare_si_interventie.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -175,7 +131,7 @@
                   video. <br />
                   Contactați-ne!
                 </p>
-                <a href="servicii/monitorizare_video.html"
+                <a href="servicii/monitorizare_video.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -200,7 +156,7 @@
                   Vă asigurăm o călătorie sigură şi fără griji pentru bunurile
                   dumneavoastră de valoare!
                 </p>
-                <a href="servicii/transport_valori.html"
+                <a href="servicii/transport_valori.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -225,7 +181,7 @@
                   Soluţiile noastre de securitate se adaptează perfect
                   cerinţelor fiecărui client.
                 </p>
-                <a href="servicii/instalare_sisteme.html"
+                <a href="servicii/instalare_sisteme.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -250,7 +206,7 @@
                   Consultanţa în securitate are ca rol principal identificarea
                   nevoilor clienţilor şi alegerea unei soluţii adecvate
                 </p>
-                <a href="servicii/consultanta_in_securitate.html"
+                <a href="servicii/consultanta_in_securitate.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -275,7 +231,7 @@
                   Securitate pentru evenimente, noi vă putem oferi siguranţa şi
                   liniştea unor astfel de experienţe.
                 </p>
-                <a href="servicii/securitate_evenimente.html"
+                <a href="servicii/securitate_evenimente.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -301,7 +257,7 @@
                   calificarea necesară și sprijin în susținerea examenului de
                   calificare profesională.
                 </p>
-                <a href="servicii/cursuri_de_calificare.html"
+                <a href="servicii/cursuri_de_calificare.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -326,7 +282,7 @@
                   Evaluarea riscului este esențială în gestionarea eficientă a
                   pericolelor în diverse domenii.
                 </p>
-                <a href="servicii/evaluare_de_risc.html"
+                <a href="servicii/evaluare_de_risc.php"
                   >Citește mai mult <i class="bi bi-arrow-right ms-2"></i
                 ></a>
               </div>
@@ -358,10 +314,10 @@
               Soluţiile noastre de securitate se adaptează perfect cerinţelor
               fiecărui client.
             </p>
-            <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3"
+            <a href="about.php" class="btn btn-primary py-md-3 px-md-5 me-3"
               >Despre Noi</a
             >
-            <a href="contact.html" class="btn btn-secondary py-md-3 px-md-5"
+            <a href="contact.php" class="btn btn-secondary py-md-3 px-md-5"
               >Contactați-ne!</a
             >
           </div>
@@ -369,237 +325,7 @@
       </div>
     </div>
     <!-- Ofertă Sfârșit -->
-
-    <!-- Footer Început -->
-    <div
-      class="container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp"
-      data-wow-delay="0.1s"
-    >
-      <div class="container pt-5">
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">Linkuri Rapide</h3>
-            <div class="d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="#"
-                ><i class="bi bi-arrow-right text-primary me-2"></i>Acasă</a
-              >
-              <a class="text-light mb-2" href="#"
-                ><i class="bi bi-arrow-right text-primary me-2"></i>Despre
-                Noi</a
-              >
-              <a class="text-light mb-2" href="#"
-                ><i class="bi bi-arrow-right text-primary me-2"></i>Serviciile
-                Noastre</a
-              >
-              <a class="text-light mb-2" href="#"
-                ><i class="bi bi-arrow-right text-primary me-2"></i>Cele Mai Noi
-                Articole</a
-              >
-              <a class="text-light" href="#"
-                ><i class="bi bi-arrow-right text-primary me-2"></i>Contact</a
-              >
-            </div>
-          </div>
-          <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
-            <div class="widget widget_gallery gallery-grid-4">
-              <h5 class="footer-title">Certificari</h5>
-              <ul class="magnific-image">
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta5.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta5.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta10.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta10.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta9.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta9.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta8.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta8.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta7.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta7.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta4.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta4.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta1.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta1.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta6.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta6.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta5.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta5.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta2.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta2.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a class="magnific-anchor">
-                    <img
-                      data-fancybox="gallery"
-                      href="img/licenta3.jpg.crdownload"
-                      class="img-fluid"
-                      src="img/licenta3.jpg.crdownload"
-                      alt=""
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">Contact</h3>
-            <p class="mb-2">
-              <i class="bi bi-geo-alt text-primary me-2"></i>Bucuresti, Sector
-              2, Str Plantelor
-            </p>
-            <p class="mb-2">
-              <i class="bi bi-envelope-open text-primary me-2"></i
-              >office@tetrasistemsguard.ro
-            </p>
-            <p class="mb-0">
-              <i class="bi bi-telephone text-primary me-2"></i>+40 731 200 520
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">Urmați-ne</h3>
-            <div class="d-flex">
-              <a
-                class="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                href="#"
-                ><i class="fab fa-facebook-f fw-normal"></i
-              ></a>
-              <a
-                class="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                href="#"
-                ><i class="fab fa-instagram fw-normal"></i
-              ></a>
-              <a
-                class="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                href="#"
-                ><i class="fab fa-twitter fw-normal"></i
-              ></a>
-              <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"
-                ><i class="fab fa-youtube fw-normal"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-12">
-            <form class="mx-auto" style="max-width: 600px">
-              <div class="input-group">
-                <input
-                  type="text"
-                  class="form-control border-white p-3"
-                  placeholder="Adresa de email"
-                />
-                <button class="btn btn-primary px-4">Înscrieți-vă</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-primary text-light py-4">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-md-6 text-center text-md-start">
-            <p class="mb-md-0">
-              &copy;2024
-              <a class="text-white border-bottom" href="#">Tetra.</a>Toate
-              drepturile rezervate.
-            </p>
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            <p class="mb-0">
-              Proiectat de
-              <a class="text-white border-bottom" href="">BMS</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer Sfârșit -->
+    <?php require "footer.php"; ?>
     <!-- Back to Top -->
     <a
       href="#"
@@ -635,7 +361,7 @@
           options.forEach((option) => {
             option.classList.remove("selected");
           });
-          select.querySelector("span").innerHTML = option.innerHTML;
+          select.querySelector("span").innerphp = option.innerphp;
           option.classList.add("selected");
           options_list.classList.toggle("active");
           select
@@ -645,4 +371,4 @@
       });
     </script>
   </body>
-</html>
+    </html>

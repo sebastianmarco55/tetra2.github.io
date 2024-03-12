@@ -5,6 +5,7 @@
   --dark: #120f2d;
 }
 
+
 [class^="flaticon-"]:before,
 [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after,
@@ -234,7 +235,12 @@ h6,
   width: 3rem;
   height: 3rem;
 }
-
+.gallery{
+  margin-top: 50px;
+}
+.gallery .image {
+  cursor: pointer;
+}
 .carousel-indicators {
   align-items: flex-end;
 }
@@ -249,15 +255,15 @@ h6,
 .carousel-indicators .active {
   height: 45px;
 }
-
+.no-gutters{margin-right:0;margin-left:0}
 .hero-header {
   background: linear-gradient(rgba(18, 15, 45, 0.5), rgba(18, 15, 45, 0.5)),
-    url(../img/dispecer.jpeg) top right no-repeat;
+    url(../img/Poza\ principala\ .jpeg) top right no-repeat;
   background-size: cover;
 }
 .hero-header2 {
   background: linear-gradient(rgba(18, 15, 45, 0.5), rgba(18, 15, 45, 0.5)),
-    url(../img/interventi.jpeg) top right no-repeat;
+    url(../img/Poza\ principala\ .jpeg) top right no-repeat;
   background-size: cover;
 }
 
@@ -782,7 +788,7 @@ footer .widget ul {
 
 .widget_gallery li {
     display: inline-block;
-    width: 33.33%;
+    width: 20%;
     float: left;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
