@@ -767,7 +767,9 @@ textarea {
     background: linear-gradient(to right, rgba(255, 9, 9, 0.12941176470588237), #c000ffb5, rgba(255, 0, 94, 0.14));
     color: white;
 }
-
+.widget2{
+  width: 75%;
+}
 img {
     border-style: none;
     height: auto;
