@@ -770,6 +770,9 @@ textarea {
 .widget2{
   width: 75%;
 }
+.widget3{
+  width: 50%;
+}
 img {
     border-style: none;
     height: auto;
